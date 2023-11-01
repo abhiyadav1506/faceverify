@@ -1,0 +1,110 @@
+@media only screen and (max-width: 600px) and (min-width: 400px)    {
+    body{
+        font-size: 8px;
+    }
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #EAFFFF;
+}
+
+
+.navbar .nav-item .nav-links {
+font-family: 'Oswald', sans-serif;
+}
+
+.nav-link:hover {
+    color: black !important;
+}
+
+.main-section {
+    background-color:#35C5DB;
+}
+
+button:hover {
+    color: #35C5DB !important;
+    background-color: aliceblue !important;
+}
+
+
+form {
+    padding:20px;
+}
+
+.links-1 i:hover{
+    color: #35C5DB !important;
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    20%{opacity: 1;}
+    80%{opacity: 0;}
+    100% { opacity: 1; }
+  }
+
+  .container-22 {
+    width: 700px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border-color:black;
+    padding-top: 40px;
+    margin-top: 40px;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: 'oswald';
+}
+
+.form-group input[type="submit"] {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+    color:#35C5DB;
+    background-color:azure;
+}
+
+.btn:hover {
+    color: #35C5DB !important;
+    background-color: #EAFFFF;
+}
